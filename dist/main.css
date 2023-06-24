@@ -112,12 +112,12 @@ q{
 }
 table,
 td {
-    border: 1px solid #062743;
+    border: 1px solid #062743 !important;;
 }
 
 thead,
 tfoot {
-    background-color: #062743;
+    background-color: #062743 !important;;
     color: #f9f9f9;
 }
 q{
@@ -125,3 +125,6 @@ q{
   height:100x;
   margin-top:1px;
 }
+@media print {
+  body {-webkit-print-color-adjust: exact;}
+  }
